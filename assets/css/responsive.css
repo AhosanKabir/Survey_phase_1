@@ -1,0 +1,48 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+    /*!!!!!!!!!!!!!!!!!!!!            mappingOnHtml part responsive.                          !!!!!!!!!!!!*/
+
+    .full_area_padding{
+        padding: 0;
+    }
+
+     .area_pagination_blk{
+        flex-wrap: wrap;
+    }
+     .createQuestion_nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+     .select_area_wrapper{
+        flex-direction: column;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
